@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    width: 1440px;
+    height: 800px;
+    padding: 152px 0px 151px 0px;
+    justify-content: center;
+    align-items: center;
+    background: var(--Light-Grey, #D5E1EF);
+}
+
+.container {
+   
+    width: 320px;
+    height: 497px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 288px;
+    height: 288px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+background: var(--blue-shade, #3685FF);
+}
+
+.h1-text {
+    padding: 10px;
+    width: 288px;
+    color: var(--Dark-Navy, #1F314F);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Heading */
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p-text {
+    padding: 20px;
+    width: 256px;
+    color: var(--Grey, #7D889E);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body */
+    font-family: Outfit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.188px;
+}
